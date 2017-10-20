@@ -1,13 +1,9 @@
 package ua.gerasymiuk.CalculationOfDataTransmissionEfficiency.Services;
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-
-import java.util.Random;
-
 /**
  * Created by gerasymiuk on 18.10.17.
  */
-public class ReturnToNStrategy implements Strategy{
+public class SlidingWindow implements Strategy{
 
     double p0=0d;
     private int n;
@@ -24,7 +20,7 @@ public class ReturnToNStrategy implements Strategy{
     private double Wnorm;
     private double Weff;
     private double B;
-    public ReturnToNStrategy(Technology technology, double p0, int l, long Vp, double Tsh, double Trsh, int s, int r, int m, int sigma, double B){
+    public SlidingWindow(Technology technology, double p0, int l, long Vp, double Tsh, double Trsh, int s, int r, int m, int sigma, double B){
         this.p0 = p0;
         this.n = technology.getN();
         this.Wnorm=technology.getWnorm();
@@ -48,8 +44,9 @@ public class ReturnToNStrategy implements Strategy{
     @Override
     public double getT() {
         double result;
+        double p00=(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma)));
         //System.out.printf("T=%.10f\n",(getSum()*(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma)))));
-        result = n*1.0/C + L*1.0/Vp +Tsh+Trsh+ ((getSum()*(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma))))/(1-getSum()))*((n+s)/C*1.0+2*L*1.0/Vp);
+        result = (n+s)/C*1.0+2*L*1.0/Vp+Tsh+Trsh+n*(getSum()*p00/(1-getSum()))/C;
         return result;
     }
 
@@ -60,7 +57,9 @@ public class ReturnToNStrategy implements Strategy{
 
     @Override
     public double getP() {
-        return (1-getSum())/(1-getSum()*(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma))));
+        double p00=(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma)));
+        return (1-getSum())*(1-getSum()*Math.pow(p00,n))/(1-getSum()*p00);
+        //return (1-getSum())/(1-getSum()*(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma))));
     }
 
     @Override
