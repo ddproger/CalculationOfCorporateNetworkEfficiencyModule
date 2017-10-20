@@ -13,11 +13,11 @@ public class Main {
          double p0=0.01;
 
          int L=1_000_000;
-         long Vp=30_000_000L;
+         long Vp=3_000_000_000L;
          double Tsh=0.01;
          double Trsh=0.01;
-         int s=2048;
-         int r=8;
+         int s=32;
+         int r=16;
          int M=10;
          int sigma=2;
          double B=0.001d;

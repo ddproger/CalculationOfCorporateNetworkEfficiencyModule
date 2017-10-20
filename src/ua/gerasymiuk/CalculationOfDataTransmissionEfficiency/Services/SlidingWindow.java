@@ -46,7 +46,7 @@ public class SlidingWindow implements Strategy{
         double result;
         double p00=(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma)));
         //System.out.printf("T=%.10f\n",(getSum()*(1-1/Math.pow(2,r)*(0.5-F((r+1-M)/sigma)))));
-        result = (n+s)/C*1.0+2*L*1.0/Vp+Tsh+Trsh+n*(getSum()*p00/(1-getSum()))/C;
+        result = (n+s)*1.0/C+2*L*1.0/Vp+Tsh+Trsh+n*1.0*(getSum()*p00/(1-getSum()))/C;
         return result;
     }
 
