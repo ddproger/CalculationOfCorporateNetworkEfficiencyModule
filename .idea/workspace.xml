@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1c05c56-2ca5-48bc-8945-0b6a06a3e4c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationOfDataTransmissionEfficiency.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/ErrorFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/ReturnToNStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/Strategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/Technologies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/Technology.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/implTechnology.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +21,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="90">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReturnToNStrategy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReturnToNStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/ReturnToNStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Technologies.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Technologies.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/Technologies.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -432,6 +418,14 @@
       <option name="presentableId" value="Default" />
       <updated>1508352786239</updated>
     </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1508529643950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508529643950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -470,6 +464,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,31 +556,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/ReturnToNStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/Technologies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/gerasymiuk/CalculationOfDataTransmissionEfficiency/Services/ReturnToNStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
